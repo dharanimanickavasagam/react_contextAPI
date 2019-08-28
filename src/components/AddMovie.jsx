@@ -17,7 +17,7 @@ const Addmovie = () => {
 
   const handleAddMovie = event => {
     console.log(movies);
-    setMovies(prevMovies => [...prevMovies, { name: name }, { price: price }]);
+    setMovies(prevMovies => [...prevMovies, { name: name , price: price }]);
   };
 
   return (
